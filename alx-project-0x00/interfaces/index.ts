@@ -1,3 +1,7 @@
+export interface PillProps {
+  title: string
+}
+
 export interface PropertyProps {
   name: string;
   address: {
@@ -16,3 +20,4 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
