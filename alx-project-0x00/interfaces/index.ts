@@ -21,3 +21,7 @@ export interface PropertyProps {
   discount: string;
 }
 
+export interface ButtonProps {
+  title: string;
+  styles?: string;
+}
