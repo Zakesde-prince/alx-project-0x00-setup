@@ -1,11 +1,12 @@
-// interfaces/index.tsx
+// interfaces/index.ts
 
+// Props for the Pill component
 export interface PillProps {
-  title: string
+  title: string;
 }
 
+// Props for the Button component
 export interface ButtonProps {
-  title: string
-  size: "small" | "medium" | "large"
-  shape: "rounded-sm" | "rounded-md" | "rounded-full"
+  title: string;
+  styles: string;
 }
