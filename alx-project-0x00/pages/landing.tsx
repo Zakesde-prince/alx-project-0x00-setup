@@ -5,25 +5,15 @@ import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
   return (
-    <div className="p-4 space-y-6">
-      <h1 className="text-xl font-extralight">Landing Page</h1>
+    <main className="flex flex-col items-center justify-center min-h-screen p-4">
+      <h1 className="text-3xl font-bold mb-6">Landing Page</h1>
 
-      {/* Buttons with different sizes and shapes */}
-      <div className="flex gap-4">
-        <Button title="Small Rounded" styles="text-sm rounded-sm" />
-        <Button title="Medium Rounded" styles="text-base rounded-md" />
-        <Button title="Large Rounded" styles="text-lg rounded-full" />
-      </div>
-
-      {/* Render Card components */}
-      <div className="flex flex-wrap gap-6 mt-6">
+      {/* Cards Section */}
+      <div className="flex flex-wrap gap-6 justify-center mb-8">
         <Card />
         <Card />
         <Card />
       </div>
-    </div>
-  );
-};
 
-export default Landing;
-
+      {/* Buttons Section */}
+      <div className="flex flex-col gap-4 items-center"
