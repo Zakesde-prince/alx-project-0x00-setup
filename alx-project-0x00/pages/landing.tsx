@@ -16,4 +16,13 @@ const Landing: React.FC = () => {
       </div>
 
       {/* Buttons Section */}
-      <div className="flex flex-col gap-4 items-center"
+      <div className="flex flex-col gap-4 items-center">
+        <Button title="Small Rounded" styles="rounded-sm px-4 py-2 bg-blue-500 text-white" />
+        <Button title="Medium Rounded" styles="rounded-md px-5 py-2 bg-green-500 text-white" />
+        <Button title="Large Rounded" styles="rounded-full px-6 py-3 bg-red-500 text-white" />
+      </div>
+    </main>
+  );
+};
+
+export default Landing;
